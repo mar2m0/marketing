@@ -5,7 +5,8 @@
     { "src": "index.html",   "use": "@vercel/static"  },
     { "src": "chatbot.js",   "use": "@vercel/static"  },
     { "src": "support.js",   "use": "@vercel/static"  },
-    { "src": "uploads/**",   "use": "@vercel/static"  }
+    { "src": "uploads/**",   "use": "@vercel/static"  },
+    { "src": "assets/**",    "use": "@vercel/static"  }
   ],
   "routes": [
     { "src": "/api/chat",    "dest": "/api/chat.js"   },
